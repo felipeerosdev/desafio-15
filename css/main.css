@@ -36,3 +36,36 @@ body{
   width: 400px;
   height: 400px;
 }
+.cards__section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,424px);
+  gap: 40px 32px;
+  margin-bottom: 80px;
+}
+.card{
+  width: 592px;
+  height: 424px;
+  border: 1px solid var(--dark-40);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.cards__img{
+  background-color: var(--brand-color-purple);
+  height: 246px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_content{
+  padding: 32px;
+}
+.card__buttons{
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+}
+
+
+
+
