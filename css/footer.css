@@ -1,0 +1,12 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.footer__paragraph{
+  font-weight: 300;
+  font-size: 18px;
+}
+.span{
+  color:var(--brand-color-green);
+}
